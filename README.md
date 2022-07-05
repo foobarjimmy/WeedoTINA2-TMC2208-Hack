@@ -27,3 +27,8 @@ Microstepping of original board
 
 # SMT
 Any phone repair shop should have the necessary platforms to change the on-board HR4988 chips.
+
+# Firmware changes
+I've put pre-compiled hex firmware file in the release.Theoretically speaking the firmware need to be updated to accommodate for the changes(X/Y/Z Driver Type changes in firmware).
+
+Or if you don't update the firmware, the machine should still work even with factory firmware.
