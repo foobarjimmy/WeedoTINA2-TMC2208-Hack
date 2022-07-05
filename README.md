@@ -32,3 +32,8 @@ Any phone repair shop should have the necessary platforms to change the on-board
 I've put pre-compiled hex firmware file in the release.Theoretically speaking the firmware need to be updated to accommodate for the changes(X/Y/Z Driver Type changes in firmware).
 
 Or if you don't update the firmware, the machine should still work even with factory firmware.
+
+# IDEAs
+Thanks to the inspirations of @Drunk Engineer
+https://www.youtube.com/watch?v=8xod3NARpvE
+[How to replace soldered A4988 with Ender 3]
