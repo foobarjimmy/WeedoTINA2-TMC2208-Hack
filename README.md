@@ -21,9 +21,14 @@ Microstepping of original board
 
 # Hack Details
 1. Replace on board HR4988 chips with TMC2208 stepper drivers.
+![replace drivers & capacitors](./pic/replace_chips_+_caps.PNG)
 2. Replace capacitor between CP0&CP1 from 10nF(HR4988) to 22nF(TMC2208)
+![replace_capacitors_detailed.JPG](./pic/replace_capacitors_detailed.JPG)
 3. Cut the trace of MS3 and disconnect it from MS1&MS2.
+![cut_ms3_trace](./pic/cut_ms3_trace.PNG)
 4. Done
+![after_replacement](./pic/after_replacement.JPG)
+![after_replacement_2](./pic/after_replacement_2.JPG)
 
 # SMT
 Any phone repair shop should have the necessary platforms to change the on-board HR4988 chips.
