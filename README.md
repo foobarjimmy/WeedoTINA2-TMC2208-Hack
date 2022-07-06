@@ -12,9 +12,10 @@ Microstepping of original board
 MS1/MS2/MS3 are connected together on board through a 4.7k resister.All three pins are HIGH which shows a microstepping of 1/16 step.
 
 # TMC2208 Stepper Driver Details
-pinout(Top View)
 
-Microstepping of original board
+![Driver Signal Descriptions](./pic/tmc2208_signal.png)
+
+Microstepping of TMC2208-Board
 |MS1|MS2|MS3(cut trace)|Microstep Resolution|
 |---|---|---|---|
 |H|H|DIAG pin|1/16 Step|
