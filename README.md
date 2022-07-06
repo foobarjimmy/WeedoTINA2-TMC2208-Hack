@@ -2,7 +2,7 @@
 Repos for hacks on Weedo TINA2 3d printer
 
 # HR4988(A4988) Stepper Driver Details
-pinout(Top View)
+![pinout(Top View)](./pic/HR4988.png)
 
 Microstepping of original board
 |MS1|MS2|MS3|Microstep Resolution|Excitation Mode|
@@ -21,22 +21,29 @@ Microstepping of original board
 
 # Hack Details
 1. Replace on board HR4988 chips with TMC2208 stepper drivers.
+
 ![replace drivers & capacitors](./pic/replace_chips_+_caps.PNG)
+
 2. Replace capacitor between CP0&CP1 from 10nF(HR4988) to 22nF(TMC2208)
+
 ![replace_capacitors_detailed.JPG](./pic/replace_capacitors_detailed.JPG)
+
 3. Cut the trace of MS3 and disconnect it from MS1&MS2.
+
 ![cut_ms3_trace](./pic/cut_ms3_trace.PNG)
+
 4. Done
+
 ![after_replacement](./pic/after_replacement.JPG)
 ![after_replacement_2](./pic/after_replacement_2.JPG)
 
 # SMT
-Any phone repair shop should have the necessary platforms to change the on-board HR4988 chips.
+Any phone repair shop should have the necessary tools to change on-board HR4988 chips.
 
 # Firmware changes
-I've put pre-compiled hex firmware file in the release.Theoretically speaking the firmware need to be updated to accommodate for the changes(X/Y/Z Driver Type changes in firmware).
+I've put pre-compiled hex firmware file in the release.Theoretically speaking the firmware need to be updated to accommodate for the changes(X/Y/Z/E Driver Type changes in firmware).
 
-Or if you don't update the firmware, the machine should still work even with factory firmware.
+Or if you don't want to update the firmware, the machine should still work even with factory firmware.
 
 # IDEAs
 Thanks to the inspirations of @Drunk Engineer
