@@ -1,5 +1,5 @@
 # WeedoTINA2-TMC2208-Hack
-Repos for hacks on Weedo TINA2 3d printer
+Repos for Weedo TINA2 aka Monoprice Cadet 3d printer hacks
 
 # HR4988(A4988) Stepper Driver Details
 ![pinout(Top View)](./pic/HR4988.png)
@@ -39,7 +39,7 @@ Microstepping of TMC2208-Board
 ![after_replacement_2](./pic/after_replacement_2.JPG)
 
 # SMT
-Any phone repair shop should have the necessary tools to change on-board HR4988 chips.
+Any phone repair shop should be able to change on-board HR4988 chips.
 
 # Firmware changes
 I've put pre-compiled hex firmware file in the release.Theoretically speaking the firmware need to be updated to accommodate for the changes(X/Y/Z/E Driver Type changes in firmware).
